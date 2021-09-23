@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct OnboardingView: View {
-//    var views: [View] = [WelcomeCardView(), SettingsCardView(), CompletedCardView()]
+
     var body: some View {
-        
-        SettingsCardView()
-        WelcomeCardView()
-        CompletedCardView()
+        TabView {
+            
+            WelcomeCardView()
+            
+            SettingsCardView()
+            
+            CompletedCardView()
+            
+        }//:  TAB
+        .tabViewStyle(.page)
 
     }
 }
