@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F221D72926F94EB100E0E63D /* CompletedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F221D72826F94EB100E0E63D /* CompletedCardView.swift */; };
+		F221D72C26FA580400E0E63D /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F221D72B26FA580400E0E63D /* StartButtonView.swift */; };
+		F2F3988626F3B6D2002081BF /* Fluently_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3988526F3B6D2002081BF /* Fluently_UIApp.swift */; };
+		F2F3988826F3B6D2002081BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3988726F3B6D2002081BF /* ContentView.swift */; };
+		F2F3988A26F3B6D4002081BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F3988926F3B6D4002081BF /* Assets.xcassets */; };
+		F2F3988D26F3B6D4002081BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F3988C26F3B6D4002081BF /* Preview Assets.xcassets */; };
+		F2F3989726F3BDF7002081BF /* WelcomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3989626F3BDF7002081BF /* WelcomeCardView.swift */; };
+		F2F3989926F3C6A8002081BF /* SettingsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3989826F3C6A8002081BF /* SettingsCardView.swift */; };
+		F2F3989B26F3C6CD002081BF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3989A26F3C6CD002081BF /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F221D72826F94EB100E0E63D /* CompletedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedCardView.swift; sourceTree = "<group>"; };
+		F221D72B26FA580400E0E63D /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		F2F3988226F3B6D2002081BF /* Fluently-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fluently-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F3988526F3B6D2002081BF /* Fluently_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fluently_UIApp.swift; sourceTree = "<group>"; };
+		F2F3988726F3B6D2002081BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2F3988926F3B6D4002081BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2F3988C26F3B6D4002081BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2F3988E26F3B6D4002081BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F3989626F3BDF7002081BF /* WelcomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCardView.swift; sourceTree = "<group>"; };
+		F2F3989826F3C6A8002081BF /* SettingsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCardView.swift; sourceTree = "<group>"; };
+		F2F3989A26F3C6CD002081BF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2F3987F26F3B6D2002081BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F221D72A26FA57E700E0E63D /* Onboarding Cards */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3989826F3C6A8002081BF /* SettingsCardView.swift */,
+				F2F3989626F3BDF7002081BF /* WelcomeCardView.swift */,
+				F221D72826F94EB100E0E63D /* CompletedCardView.swift */,
+			);
+			path = "Onboarding Cards";
+			sourceTree = "<group>";
+		};
+		F2F3987926F3B6D2002081BF = {
+			isa = PBXGroup;
+			children = (
+				F2F3988426F3B6D2002081BF /* Fluently-UI */,
+				F2F3988326F3B6D2002081BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2F3988326F3B6D2002081BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3988226F3B6D2002081BF /* Fluently-UI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2F3988426F3B6D2002081BF /* Fluently-UI */ = {
+			isa = PBXGroup;
+			children = (
+				F221D72A26FA57E700E0E63D /* Onboarding Cards */,
+				F2F3989526F3BDBA002081BF /* App */,
+				F2F3989426F3BDB4002081BF /* View */,
+				F2F3988926F3B6D4002081BF /* Assets.xcassets */,
+				F2F3988E26F3B6D4002081BF /* Info.plist */,
+				F2F3988B26F3B6D4002081BF /* Preview Content */,
+			);
+			path = "Fluently-UI";
+			sourceTree = "<group>";
+		};
+		F2F3988B26F3B6D4002081BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3988C26F3B6D4002081BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2F3989426F3BDB4002081BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F221D72B26FA580400E0E63D /* StartButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2F3989526F3BDBA002081BF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3988726F3B6D2002081BF /* ContentView.swift */,
+				F2F3988526F3B6D2002081BF /* Fluently_UIApp.swift */,
+				F2F3989A26F3C6CD002081BF /* OnboardingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2F3988126F3B6D2002081BF /* Fluently-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F3989126F3B6D4002081BF /* Build configuration list for PBXNativeTarget "Fluently-UI" */;
+			buildPhases = (
+				F2F3987E26F3B6D2002081BF /* Sources */,
+				F2F3987F26F3B6D2002081BF /* Frameworks */,
+				F2F3988026F3B6D2002081BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fluently-UI";
+			productName = "Fluently-UI";
+			productReference = F2F3988226F3B6D2002081BF /* Fluently-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2F3987A26F3B6D2002081BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F2F3988126F3B6D2002081BF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F2F3987D26F3B6D2002081BF /* Build configuration list for PBXProject "Fluently-UI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2F3987926F3B6D2002081BF;
+			productRefGroup = F2F3988326F3B6D2002081BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2F3988126F3B6D2002081BF /* Fluently-UI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2F3988026F3B6D2002081BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F3988D26F3B6D4002081BF /* Preview Assets.xcassets in Resources */,
+				F2F3988A26F3B6D4002081BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2F3987E26F3B6D2002081BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F221D72C26FA580400E0E63D /* StartButtonView.swift in Sources */,
+				F221D72926F94EB100E0E63D /* CompletedCardView.swift in Sources */,
+				F2F3989726F3BDF7002081BF /* WelcomeCardView.swift in Sources */,
+				F2F3988826F3B6D2002081BF /* ContentView.swift in Sources */,
+				F2F3988626F3B6D2002081BF /* Fluently_UIApp.swift in Sources */,
+				F2F3989B26F3C6CD002081BF /* OnboardingView.swift in Sources */,
+				F2F3989926F3C6A8002081BF /* SettingsCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2F3988F26F3B6D4002081BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2F3989026F3B6D4002081BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2F3989226F3B6D4002081BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fluently-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = GDUSYDN3AG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fluently-UI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.sawyercherry.Fluently-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2F3989326F3B6D4002081BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fluently-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = GDUSYDN3AG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fluently-UI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.sawyercherry.Fluently-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2F3987D26F3B6D2002081BF /* Build configuration list for PBXProject "Fluently-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F3988F26F3B6D4002081BF /* Debug */,
+				F2F3989026F3B6D4002081BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F3989126F3B6D4002081BF /* Build configuration list for PBXNativeTarget "Fluently-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F3989226F3B6D4002081BF /* Debug */,
+				F2F3989326F3B6D4002081BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2F3987A26F3B6D2002081BF /* Project object */;
+}
